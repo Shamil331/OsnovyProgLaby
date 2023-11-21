@@ -13,7 +13,7 @@ int main()
     char str[LENGTH];
     int i;
     i = 0;
-    printf("Введите строку символов\n");
+    std::cout<<"Введите строку символов\n";
     gets_s(str);
     while(str[i]!='.') {
         bool foundGl = false;
